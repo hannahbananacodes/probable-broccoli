@@ -1,21 +1,26 @@
 body {
-    background-color: #F5F5F5;
+    background-color: #3F2860;
     color: #40407A;
     font-family: "Verdana", "Arial", sans-serif;
 }
 
 header {
     background-color: #80CBC4;
-    text-align: center;
+    background-image: url(lilyheader.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 150px;
 }
 
 h1 {
-    line-height: 200%;
+    padding-top: 50px;
+    padding-left: 2em;
 }
 
 nav {
     text-align: center;
     font-weight: bold;
+    padding: 1em;
 }
 
 nav a {
@@ -30,11 +35,29 @@ footer {
     background-color: #80CBC4;
     font-size: .60em;
     text-align: center;
-    font-style: italic
+    font-style: italic;
+    padding: 1em;
 }
 
 #wrapper {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    background-color: #F5F5F5;
+    min-width: 1000px;
+    max-width: 1280px;
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+img {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#hero {
+    text-align: center;
 }

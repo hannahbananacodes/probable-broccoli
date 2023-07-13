@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #3F2860;
     color: #40407A;
@@ -18,13 +22,37 @@ h1 {
 }
 
 nav {
-    text-align: center;
     font-weight: bold;
     padding: 1em;
+    float: left;
+    width: 160px;
 }
 
 nav a {
     text-decoration: none;
+    display: block;
+    text-align: center;
+    border: 3px outset #CCCCCC;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+nav a:link {
+    color: #3F2860;
+}
+
+nav a:visited {
+    color: #497777;
+}
+
+nav a:hover {
+    color: #A26100;
+    border: 3px inset #333333;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .studio {
@@ -44,21 +72,54 @@ footer {
     margin-right: auto;
     margin-left: auto;
     background-color: #F5F5F5;
-    min-width: 1000px;
-    max-width: 1280px;
+    min-width: 1200px;
+    max-width: 1480px;
 }
 
 main {
     padding-left: 2em;
     padding-right: 2em;
     display: block;
+    padding-top: 1em;
+    margin-left: 170px;
 }
 
-img {
-    padding-left: 1em;
-    padding-right: 1em;
+.floatleft {
+    float: left;
+    margin-right: 4em;
+    margin-bottom: 1em;
 }
 
 #hero {
-    text-align: center;
+    padding: 1em auto 1em auto;
 }
+
+.clear {
+    clear: both;
+}
+
+.onehalf {
+    float: left;
+    width: 50%;
+    padding: auto 2em auto 2em;
+}
+
+.onethird {
+    float: left;
+    width: 33%;
+    padding: auto 2em auto 2em;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header a:link, header a:visited {
+    color: #40407A;
+}
+
+header a:hover {
+    color: #FFFFFF;
+}
+
+

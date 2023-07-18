@@ -91,7 +91,8 @@ main {
 }
 
 #hero {
-    padding: 1em auto 1em auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .clear {
@@ -101,13 +102,15 @@ main {
 .onehalf {
     float: left;
     width: 50%;
-    padding: auto 2em auto 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 .onethird {
     float: left;
     width: 33%;
-    padding: auto 2em auto 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 header a {
